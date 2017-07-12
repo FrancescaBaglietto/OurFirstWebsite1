@@ -1,17 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<link href="style.css"
-		type = "text/css"
-		rel="stylesheet">
 		<title> Flat 4 </title>
-	</head>
-<body>
-	<h1> Flat 4 <h1>
-	
-	<a href="http://www.monicarivasvelasquez.info/" target="blank"> 
-	<img src="http://payload427.cargocollective.com/1/19/608317/10856073/03_1024.jpg" alt="Mónica Rivas Velásquez's Art"/> </a>
+		<link type ="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<link type ="text/css" rel="stylesheet" href="css/css/main.css">
+		<script src="https:ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/jquery.bxslider/jquery.bxslider.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="js/jquery.bxslider/jquery.bxslider.css">
+		<script src="js/myjQuery.js"></script>
+	</head>	
 
-	<p> Flat 4 is a space where artists and art enthusiasts can meet. Conversations take place over dinner in an informal atmosphere where ideas and opinions can be freely shared. <br />Flat 4 is hosted every two months by Francesca and Manuel on the top floor of their Victorian home. </p>
+	<body>
+		<div class="jumbotron text-center">
+			<h1> Flat 4 </h1>
+				<ul class="bxslider">
+					<li><img src="images/Benevent/20170326_195951.jpg" class="img-rounded" width="100%" height="570" alt="A Recent Event"></li>
+					<li><img src="images/Monicaevent/Food.jpg" class="img-rounded" width="100%" height="570"></li>
+					<li><img src="images/Monicaevent/Display.jpg" class="img-rounded"width="100%" height="570"></li>
+				</ul>
+		</div>
+
+		<div class="container-fluid text-center">
+			<h2>About Flat 4</h2>
+				<p> Flat 4 is a space where artists and art enthusiasts can meet. Conversations take place over dinner in an informal atmosphere where ideas and opinions can be freely shared. 
+				<br> 
+				Flat 4 is hosted every two months by Francesca and Manuel on the top floor of their Victorian home. </p>
+		</div>
+		<br>
+		<div class="container-fluid text-center">
+			<h2> Previous Events </h2>
+			<div class="row text-center">
+				<div class="col-sm-6">
+					<div class="thumbnail">
+						<a href=http://www.benmcdonnell.co.uk/index.php/text/the-listening-camera/>
+						<img src=images/Benevent/benevent2.JPG class="img-rounded" alt="Ben McDonnell"></a>
+						<p><strong>Ben McDonnell "The Listening Camera"</strong></p>
+						<p>Current themes in Ben's work revolve around silence in the still image.</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="thumbnail">
+						<a href=http://www.monicarivasvelasquez.info/>
+						<img src=images/Monicaevent/monicaevent2.jpg class="img-rounded" alt="Mónica Rivas Velásquez"></a>
+						<br>
+						<p><strong>Monica Rivas Velasquez "I Want to Write To You Like Someone Learning Part II"</strong></p>
+						<p> A constellation of botanical and personal narratives.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<h3 class="text-center">Get in touch</h2>
+			<div class="row">
+				<div class="col-sm-5 text-center">
+					<p>Contact us with any queries:</p>
+					<p><span class="glyphicon glyphicon-map-marker"></span>London, UK</p>
+					<p><span class="glyphicon glyphicon-phone"></span>0044791234567</p>
+					<p><span class="glyphicon glyphicon-envelope"></span>flat4francesca@gmail.com</p>
+				</div>
+				<div class="col-sm-7">
+      				<div class="row">
+        				<div class="col-sm-6 form-group">
+         					<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+      				 	</div>
+        			<div class="col-sm-6 form-group">
+         					<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        				</div>
+      				</div>
+      				<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+     				<div class="row">
+        				<div class="col-sm-12 form-group">
+        					<button class="btn btn-default pull-right" type="submit">Send</button>
+        				</div>
+      				</div> 
+    			</div>
+
+    	<footer class="container-fluid text-center">
+    		<a href="#myPage" title="To Top">
+    			<span class="glyphicon glyphicon-chevron-up"></span>
+    		</a>
+    	</footer>
 	</body>	
 </html>
